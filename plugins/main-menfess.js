@@ -21,7 +21,7 @@ let logs = `➯ Pᴇsᴀɴ : ${pesan}`
 let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
         let imgr = fla.getRandom()
         //Created By AL? Offc
-       await conn.send3ButtonDoc(data.jid, tek, ssn, 'Balas', '.balasmenfess', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+       await conn.send3ButtonDoc(data.jid, tek, ssn,'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'https://www.instagram.com/reeeee1412/',
     mediaType: 2, 
     description: sgc,
