@@ -12,7 +12,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 
 📮 *Note:*
 • Owner tidak menerima save contact
-• Owner berhak blockir tanpa alasan
+• Owner berhak Blokir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
@@ -20,17 +20,17 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : WH-MODS-Dev
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
+${htjava} *💌 Nama* : Reeya
+${htjava} *✉️ Nama RL* : Reeya
 ${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
+${htjava} *🕋 Agama* : ?
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
-${htjava} *❤️ Waifu* : -
+${htjava} *🎨 Umur* : 9999
+${htjava} *🧮 Kelas* : -
+${htjava} *🧩 Hobby* : Ngeshare Meme di Facebook"
+${htjava} *💬 Sifat* : Tergantung anime yg ku nonton
+${htjava} *🗺️ Tinggal* : Isekai
+${htjava} *❤️ Waifu* : Meteora <3
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
