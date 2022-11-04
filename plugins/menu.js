@@ -191,6 +191,9 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     'host': 'Host',
     'advanced': 'Advanced'
   }
+if (teks =='menfess') tags = {
+    'menfess: 'Menfess'
+ }
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
   }
@@ -283,6 +286,10 @@ const sections = [
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
         },{
+          title: `${htki} MENU MENFESS ${htka}`,
+          rows: [
+            {title: `💬 ${pmenus} Menfess`, rowId: ".? menfess", description: "Menampilkan Semua command BOT"},
+          ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
