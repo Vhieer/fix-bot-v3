@@ -51,7 +51,7 @@ let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
         })
     
     }
-handler.tags = ['menbalas']
+handler.tags = ['menfess']
 handler.help = ['menfess'].map(v => v + ' <nomor|nama|pesan>')
 handler.command = /^(menfess|menfes)$/i
 handler.private = true
