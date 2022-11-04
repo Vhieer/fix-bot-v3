@@ -148,9 +148,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   if (teks == 'anonymous') tags = {
     'anonymous': 'Anonymous Chat'
   }
-  if (teks == 'menfess') tags = {
-    'main': 'Menfess',
-  }	
   if (teks == 'nulis') tags = {
     'nulis': 'Nulis',
     'maker': 'Maker'
@@ -285,11 +282,7 @@ const sections = [
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
-        },
-          title: `${htki} MENU MENFESS ${htka}`,
-          rows: [
-            {title: `💬 ${pmenus} Menfess`, rowId: ".? Menfess", description: "Menampilkan Semua command BOT"},
-          ]},{
+        },{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
