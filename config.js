@@ -58,12 +58,12 @@ global.sfb = 'https://www.facebook.com/meteora404' // facebook
 global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '08XXXXXXXXXX' //dana
-global.povo = '08XXXXXXXXXX' //ovo
-global.pgopay = '08XXXXXXXXXX' //gopay
-global.plinkaja = '08XXXXXXXXXX' //link aja
-global.ppulsa = '08XXXXXXXXXX' //telkomsel
-global.ppulsa2 = '08XXXXXXXXXX' // kalau ada kartu lain isi aja
+global.pdana = ' [ - Chat Owner For This ! - ] ' //dana
+global.povo = ' [ - Chat Owner For This ! - ] ' //ovo
+global.pgopay = ' [ - Chat Owner For This ! - ] ' //gopay
+global.plinkaja = ' [ - Chat Owner For This ! - ] ' //link aja
+global.ppulsa = ' [ - Chat Owner For This ! - ] ' //telkomsel
+global.ppulsa2 = ' [ - Chat Owner For This ! - ] ' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.co/reeyaboat'
 
 /*============== NOMOR ==============*/
