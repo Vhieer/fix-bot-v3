@@ -15,7 +15,7 @@ let mentionedJid = [m.sender]
     if (mf) return !0
  
 let id = + new Date
-let tek = `Hᴀɪ Kᴀᴋ @${data.jid.split('@')[0]}, ᴋᴀᴍᴜ ᴍᴇɴᴇʀɪᴍᴀʜ ᴘᴇsᴀɴ ᴍᴀɴғᴇss ɴɪʜ.\n➴`.trim();
+let tek = `Hᴀɪ Kᴀᴋ @${data.jid.split('@')[0]}, ᴋᴀᴍᴜ ᴍᴇɴᴇʀɪᴍᴀʜ ᴘᴇsᴀɴ ᴍᴀɴғᴇss ɴɪʜ. ꜱɪʟᴀʜᴋᴀɴ ᴋɪʀɪᴍ ᴘᴇꜱᴀɴ ʙᴀʟᴀꜱᴀɴ ᴋᴀᴍᴜ . ᴋᴇᴛɪᴋ ᴘᴇꜱᴀɴᴍᴜ ʟᴀʟᴜ ᴋɪʀɪᴍ\n➴`.trim();
 let logs = `➯ Pᴇsᴀɴ : ${pesan}`
 
 let ssn = `〠 Dᴀʀɪ : ${name}\n⎙ Pᴇsᴀɴ : ${pesan}`
