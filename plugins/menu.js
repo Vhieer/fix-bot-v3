@@ -62,7 +62,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 	let whmods = await conn.profilePictureUrl(who).catch(_ => hwaifu.getRandom())
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner','menfess' 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'menbalas', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner','nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main', 
@@ -94,7 +94,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
-  'menfess': 'Menfess',
   '': 'No Category',
 }
   if (teks == 'game') tags = {
@@ -192,9 +191,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     'host': 'Host',
     'advanced': 'Advanced'
   }
- if (teks == 'menfess') tags = {
-    'menfess': 'Menfess'
-  }
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
   }
@@ -286,10 +282,6 @@ const sections = [
             {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         },{
-          title: `${htki} MENU MENFESS ${htka}`,
-          rows: [
-            {title: `💬 ${pmenus} Menfess`, rowId: ".? menfess", description: "Menampilkan Command Menfess"},
-          ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
