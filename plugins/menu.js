@@ -158,9 +158,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
   if (teks == 'tools') tags = {
     'tools': 'Tools'
   }
-if (teks == 'menbalas') tags = {
-    'menbalas': 'Menfess'
-  }
   if (teks == 'fun') tags = {
     'fun': 'Fun'
   }
@@ -286,10 +283,6 @@ const sections = [
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
         },{
-          title: `${htki} MENU MENFESS ${htka}`,
-          rows: [
-            {title: `💬 ${pmenus} Menfess Balas`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
-          ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
