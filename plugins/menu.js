@@ -191,9 +191,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
     'host': 'Host',
     'advanced': 'Advanced'
   }
-if (teks =='menbalas') tags = {
-    'menbalas: 'Menfess'
- }
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
   }
@@ -286,14 +283,11 @@ const sections = [
             {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
         ]
         },{
-          title: `${htki} MENU MENFESS ${htka}`,
-          rows: [
-            {title: `💬 ${pmenus} Menfess`, rowId: ".? menbalas", description: "Menampilkan Semua command BOT"},
-          ]},{
         title: `${htki} MENU ${htka}`,
         rows: [
             {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
             {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
+            {title: `💬 ${pmenus} Menfess`, rowId: ".? menfess", description: "Menampilkan Command Mnefess"},		
         {title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
         {title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
         {title: `🧩 ${pmenus} Fun`, rowId: ".? fun", description: "Fitur yang aman untuk keluarga"},
