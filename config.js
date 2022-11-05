@@ -67,7 +67,7 @@ global.ppulsa2 = ' [ - Chat Owner For This ! - ] ' // kalau ada kartu lain isi a
 global.psaweria = 'https://saweria.co/reeyaboat'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283122140504'
+global.nomorbot = '16028253490'
 global.nomorown = '6289612228750'
 global.namebot = '𝕊𝕖𝕔𝕣𝕖𝕥 𝕄𝔻'
 global.nameown = '𝓡𝓮𝓮𝔂𝓪'
